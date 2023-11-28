@@ -1,0 +1,55 @@
+﻿Nom de variable;Domaine;Description
+batiment_groupe_id;bâtiment;identifiant unique du batiment dans la BNB
+code_departement_insee;bâtiment;numéro du département du bâtiment
+dpe_id;DPE;identifiant unique du DPE (Aleia)
+numero_dpe;DPE;(dpe) Numéro (unique) de DPE, d'un DPE représentatif de ce bâtiment
+avancee_masque_max;Facteur énergie;(dpe) Avancée balcon
+baie_fs;Facteur énergie;(dpe) Facteur solaire des baies
+baie_mat;Facteur énergie;(dpe) Matériaux de l'encadrement de la baie
+baie_orientation;Facteur énergie;(dpe) Orientations des vitrages d'un logement représentatif du bâtiment
+baie_remplissage;Facteur énergie;(dpe) Type de remplissage des vitrages argon ou air
+baie_type_vitrage;Facteur énergie;(dpe) Type de vitrage
+baie_u;Facteur énergie;(dpe) U des baies (Ujn ou Uw) en W/m²/K (le plus fréquement constaté)
+ch_gen_lib;Facteur énergie;
+ch_gen_lib_appoint;Facteur énergie;(dpe) Type de générateur de chauffage d'appoint 
+ch_gen_lib_princ;Facteur énergie;(dpe) Type de générateur de chauffage principal
+ch_solaire;Facteur énergie;(dpe) Présence d'énergie solaire pour le chauffage
+ch_type_ener_corr;Facteur énergie;(dpe) Type d'énergie de chauffage (concaténé + )
+ch_type_inst;Facteur énergie;(dpe) Type d'installation de chauffage
+classe_conso_ener;Performance;(dpe) Classe de consommation énergie d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+classe_estim_ges;Performance;(dpe) Classe de consommation GES DPE d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+coherence_donnees_dpe;DPE;(dpe) booléen, cohérence des données DPE
+conso_ener;Performance;(dpe) consommations énergétiques minimale sur l'ensemble des DPE [kWhEP/m².an]
+date_reception_dpe;DPE;(dpe) Date de réception du DPE
+ecs_gen_lib;Facteur énergie;(dpe) Liste de générateurs d'ECS
+ecs_gen_lib_appoint;Facteur énergie;(dpe) Production ECS d'appoint
+ecs_gen_lib_princ;Facteur énergie;(dpe) Production d'Eau Chaude Sanitaire (ECS)
+ecs_solaire;Facteur énergie;(dpe) Présence d'ECS solaire
+ecs_type_ener;Facteur énergie;(dpe) Type d'énergie de ecs (concaténé + )
+ecs_type_inst;Facteur énergie;(dpe) Type d'installation d'ECS (individuelle ou collective)
+enr;Facteur énergie;Energies renouvelables présentes dans le bâtiment
+estim_ges;Performance;(dpe) Classe de consommation GES DPE d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+inertie;Facteur énergie;Inertie thermique du logement
+methode_3cl;DPE;
+traversant;Facteur énergie;Epaisseur de la structure des murs la plus fréquente en surface
+mur_ep_mat_ext;Facteur énergie;(dpe) Matériaux de la structure des murs extérieurs
+mur_mat_ext;Facteur énergie;(dpe) Type d'isolation des murs
+mur_pos_isol_ext;Facteur énergie;U du mur d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+mur_u_ext;Facteur énergie;Nom de méthode DPE d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+nom_methode_dpe;DPE;Nom de méthode DPE d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+pb_mat;Facteur énergie;Matériau ou principe constructif du plancher bas le plus fréquent en surface
+pb_pos_isol;Facteur énergie;(dpe) Type d'isolation du plancher bas
+pb_type_adjacence;Facteur énergie;(dpe) Type d'adjacence la plus fréquente en surface des planchers bas
+pb_u;Facteur énergie;(dpe) U du plancher bas le plus fréquent en surface en W/m²/k
+prc_s_vitree_ext;Facteur énergie;(dpe) Pourcentage de surface vitrée d'un logement du bâtiment
+periode_construction;bâtiment;(dpe) Période de construction
+ph_mat;Facteur énergie;Matériau ou principe constructif du plancher haut d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+ph_pos_isol;Facteur énergie;(dpe) Type d'isolation de la toiture
+ph_type_adjacence;Facteur énergie;Type d'adjacence des planchers haut d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+ph_u;Facteur énergie;(dpe) U du plancher haut en W/m²/K
+presence_balcon;Facteur énergie;(dpe) présence de balcons dans les logements du bâtiment
+presence_climatisation;Facteur énergie;(dpe) Booléen présence de climatisation
+s_hab;bâtiment;(dvf) surface habitable [m²]
+type_batiment;bâtiment;Type de construction (batiment)
+type_ventilation;Facteur énergie;Type de ventilation d'un logement représentatif du bâtiment ayant un DPE (méthode de l'ancien DPE pré réforme 2021)
+ratio_ges_conso;Performance;(dpe) ratio GES émis / consommation energétique [kgC02eq/kWhEP]
