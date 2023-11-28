@@ -1,10 +1,10 @@
 ﻿Nom de variable;Domaine;Description
-batiment_groupe_id;bâtiment;identifiant unique du batiment dans la BNB
-code_departement_insee;bâtiment;numéro du département du bâtiment
-dpe_id;DPE;identifiant unique du DPE (Aleia)
-numero_dpe;DPE;(dpe) Numéro (unique) de DPE, d'un DPE représentatif de ce bâtiment
-avancee_masque_max;Facteur énergie;(dpe) Avancée balcon
-baie_fs;Facteur énergie;(dpe) Facteur solaire des baies
+batiment_groupe_id;bâtiment;identifiant unique du batiment dans la BNB X
+code_departement_insee;bâtiment;numéro du département du bâtiment X
+dpe_id;DPE;identifiant unique du DPE (Aleia) X
+numero_dpe;DPE;(dpe) Numéro (unique) de DPE, d'un DPE représentatif de ce bâtiment X
+avancee_masque_max;Facteur énergie;(dpe) Avancée balcon X
+baie_fs;Facteur énergie;(dpe) Facteur solaire des baies 
 baie_mat;Facteur énergie;(dpe) Matériaux de l'encadrement de la baie
 baie_orientation;Facteur énergie;(dpe) Orientations des vitrages d'un logement représentatif du bâtiment
 baie_remplissage;Facteur énergie;(dpe) Type de remplissage des vitrages argon ou air
